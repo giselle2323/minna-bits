@@ -1,7 +1,7 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 
-import type { AppProps } from 'next/app'
-import type { NextPage } from 'next'
+import type { AppProps } from 'next/app';
+import type { NextPage } from 'next';
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: React.ReactElement) => React.ReactNode
