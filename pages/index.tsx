@@ -3,6 +3,7 @@ import Layout from '@/app/layout/';
 export default function Dashboard() {
   return (
     <div>
+      <button>Login</button>
       <div className="w-1/2 h-full hidden lg:flex items-center pl-6 pr-24">
                         <div className="relative w-full">
                             <div className="text-gray-500 absolute ml-4 inset-0 m-auto w-4 h-4">
